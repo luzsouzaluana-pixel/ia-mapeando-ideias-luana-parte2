@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sono e Indisposição | Guia Completo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-header { text-align: left; margin-bottom: 30px; }
+        .back-link { display: inline-flex; align-items: center; gap: 8px; color: #818cf8; text-decoration: none; font-size: 0.9rem; font-weight: 600; margin-bottom: 20px; transition: color 0.2s; }
+        .back-link:hover { color: #c7d2fe; }
+        .content-card { background: rgba(23, 27, 44, 0.85); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 16px; padding: 40px; backdrop-filter: blur(12px); box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5); margin-bottom: 30px; }
+        .content-card h2 { color: #a5b4fc; font-size: 1.5rem; margin-bottom: 15px; border-bottom: 1px solid rgba(99, 102, 241, 0.2); padding-bottom: 10px; }
+        .content-card p { line-height: 1.7; color: #cbd5e1; margin-bottom: 15px; font-size: 0.95rem; }
+        .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 25px; }
+        .feature-item { background: rgba(30, 36, 62, 0.6); border: 1px solid rgba(99, 102, 241, 0.2); border-radius: 12px; padding: 20px; }
+        .feature-item h3 { color: #f8fafc; font-size: 1.1rem; margin-bottom: 8px; }
+        .feature-item p { font-size: 0.88rem; color: #94a3b8; margin-bottom: 0; }
+        .hero-figure { text-align: center; margin: 30px 0; }
+        .hero-figure svg { width: 100%; max-width: 480px; height: auto; filter: drop-shadow(0 10px 15px rgba(99, 102, 241, 0.2)); }
+    </style>
+</head>
+<body>
+
+    <div class="bg-3d-container">
+        <div class="cube-grid">
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+            <div class="cube"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <header class="page-header">
+            <a href="index.html" class="back-link">&larr; Voltar para o Organizador</a>
+            <h1>Sono Desregulado e Indisposição</h1>
+            <p class="subtitle">Otimize seus ciclos circadianos para maximizar a consolidação da memória e energia diária.</p>
+        </header>
+
+        <!-- FIGURA VETORIAL ILUSTRATIVA -->
+        <div class="hero-figure">
+            <svg viewBox="0 0 500 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="500" height="200" rx="16" fill="#131625" stroke="#4F46E5" stroke-width="1.5" stroke-dasharray="4 4"/>
+                <path d="M100 130 C150 50, 200 50, 250 130 C300 210, 350 50, 400 130" stroke="#6366F1" stroke-width="3" fill="none"/>
+                <circle cx="175" cy="70" r="18" fill="#F59E0B"/>
+                <path d="M325 150 A15 15 0 1 0 340 165 A12 12 0 1 1 325 150 Z" fill="#A5B4FC"/>
+            </svg>
+        </div>
+
+        <main>
+            <section class="content-card">
+                <h2>Como o Sono Consolida o Aprendizado</h2>
+                <p>O sono não é um estado passivo de desligamento, mas sim um processo biológico altamente ativo. Durante as fases de sono profundo e REM, o cérebro limpa resíduos metabólicos através do sistema glinfático e transfere memórias de curto prazo (hipocampo) para o córtex (memória de longo prazo).</p>
+                <p>Estudar muito sem dormir o suficiente é o equivalente a digitar um documento complexo e desligar o computador sem salvar o arquivo.</p>
+            </section>
+
+            <section class="content-card">
+                <h2>Pilares da Higiene do Sono para Estudantes e Profissionais</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <h3>Luz Natural Matinal</h3>
+                        <p>Exponha-se à luz do sol nos primeiros 30 minutos após acordar para calibrar o relógio biológico e travar o cortisol no horário correto.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Corte Amarelo/Luz Azul</h3>
+                        <p>Cessar o uso de telas (celulares, notebooks, TVs) 60 minutos antes do horário de dormir para não inibir a produção natural de melatonina.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Janela da Cafeína</h3>
+                        <p>Evite consumir café, pré-treinos, chás pretos ou energéticos no mínimo 8 a 10 horas antes da sua hora planejada de ir para a cama.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h3>Consistência de Horários</h3>
+                        <p>Mantenha horários fixos para ir para a cama e acordar, inclusive aos finais de semana, para estabilizar seus ritmos corporais.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
